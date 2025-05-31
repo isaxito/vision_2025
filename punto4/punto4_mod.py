@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Cargar imagen original
-img_original =  cv2.imread('/home/ieguaras/vision/punto4/4900295967065091708.jpg')
+img_original =  cv2.imread('4900295967065091708.jpg')
 
 if img_original is None:
     raise Exception("No se pudo cargar la imagen. Verifica la ruta.")
