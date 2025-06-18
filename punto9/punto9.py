@@ -58,6 +58,7 @@ def meas_points(event, x, y, flags, param):
             if points_counter_2 == 2:
                 getting_points_2 = False
                 calcShow_distance()
+                cv2.line(img_rectificada, (pts_meas[0][0], pts_meas[0][1]), (pts_meas[1][0], pts_meas[1][1]), azul, 3)
 
 
 # Función para realizar la transformación

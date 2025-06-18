@@ -52,10 +52,9 @@ while True:
         
         M_affine = cv2.getAffineTransform(pts_src, pts_dest)
 
-        #select_rot = cv2.warpAffine(img_original, M_affine, img_original.shape[:2])
+        # No estoy seguro de que poner donde tengo (100, 100)
         select_rot = cv2.warpAffine(img_original, M_affine, (100, 100))
         if select_rot.size != 0:
-            print('Imshow2')
             cv2.imshow('image', select_rot)
 
 
