@@ -4,7 +4,7 @@ import numpy as np
 # Auth: Isaac Eguaras & ChatGPT
 
 # Cargar imagen original
-img_original = cv2.imread('3090.jpeg')
+img_original = cv2.imread('parcial.png')
 
 if img_original is None:
     raise Exception("No se pudo cargar la imagen. Verifica la ruta.")
